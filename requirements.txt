@@ -2,3 +2,11 @@ Flask==0.12.5
 click==7.1.2
 aiohttp==3.7.4
 pymysql==1.0.2
+# Triggers CVE-2023-31047 (Critical severity - Remote Code Execution in Django)
+Django==3.2.8
+
+# Triggers CVE-2023-32681 (High severity - Leak of Authorization header in Requests)
+requests==2.18.4
+
+# Triggers CVE-2022-23491 (Critical severity - certifi trust store bypass)
+certifi==2021.10.8
